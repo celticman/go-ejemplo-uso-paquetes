@@ -30,5 +30,5 @@ Creamos un directorio "matematicas" y en el fichero GO que no tiene por que tene
 
 En el directorio principal compilamos del siguiente modo:
 
-	go build main.go
+	go build -o uso-paquetes.bin main.go
 	
