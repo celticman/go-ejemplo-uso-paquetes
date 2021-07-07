@@ -5,6 +5,6 @@ import "mis-ejercicios/uso-paquetes/matematicas"
 
 func main() {
   numeros := []float64{1,2,3,4}
-  media := matematicas.Media(numeros)
+  media := matematicas.media(numeros)
   fmt.Println(media)
 }
