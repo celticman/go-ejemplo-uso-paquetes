@@ -20,11 +20,15 @@ En el programa principal "main.go" llamamos a la librería ( de cálculos matem�
 
 	import "celticman/mis-ejercicios/uso-paquetes/matematicas"
 
+La ruta consiste en añadir la ruta del paquete al nombre del proyeto. El nombre del paquete es su ruta dentro del proyecto, es básicamente un directorio.
+
 ### 3. Creamos el paquete de matemáticas
 
 Creamos un directorio "matematicas" y en el fichero GO que no tiene por que tener el mismo nombre. Por ejemplo "mates.go". La cabecera del fichero sería solo:
 
 	package matematicas
+
+El paquete ó librería puede contener un único fichero **.go** ó varios. En este caso podríamos tener un fichero **estadistica.go** y otro **matrices.go**.
 
 ### 4. Compilamos el proyecto
 
