@@ -26,3 +26,9 @@ Creamos un directorio "matematicas" y en el fichero GO que no tiene por que tene
 
 	package matematicas
 
+## 4. Compilamos el proyecto
+
+En el directorio principal compilamos del siguiente modo:
+
+	go build main.go
+	
