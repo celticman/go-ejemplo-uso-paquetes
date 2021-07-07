@@ -46,4 +46,8 @@ No se exportaría la siguiente:
 
 	func media(numeros []float64) float64 {
 
+### Instalar versión 1.16 de GO
 
+La gestión de paquetes se actualizó en las versiones anteriores a la versión 1.16. Para actualizar a esta versión es necesario seguir los pasos indicados en el siguiente enlace:
+
+[Descarga e Instalación de la última versión de GO](https://golang.org/doc/install)
