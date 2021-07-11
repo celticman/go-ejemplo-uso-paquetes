@@ -55,3 +55,14 @@ No se exportaría la siguiente:
 La gestión de paquetes se actualizó en las versiones anteriores a la versión 1.16. Para actualizar a esta versión es necesario seguir los pasos indicados en el siguiente enlace:
 
 [Descarga e Instalación de la última versión de GO](https://golang.org/doc/install)
+
+### El nombre del paquete no puede incluir un "-"
+
+No se puede incluir un guión medio como nombre del paquete, p.ej. no es válido "calculos-matematicos". En su lugar puede usarse un "_" (p.ej. calculos_matematicos) ó que la primera letra de las segunda palabra sea mayúscula (p.ej. calculosMatematicos).
+
+## Al llamar la función que que poner en primer lugar el nombre del paquete.
+
+Si el paquete a llamar se llama "calculos_matematicos" y se utiliza una funcion pública (p.ej. Media), la llamada a la función debe ser del siguiente modo:
+
+	calculos.matematicos.Media( numeros )
+	
