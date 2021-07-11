@@ -60,7 +60,7 @@ La gestión de paquetes se actualizó en las versiones anteriores a la versión 
 
 No se puede incluir un guión medio como nombre del paquete, p.ej. no es válido "calculos-matematicos". En su lugar puede usarse un "_" (p.ej. calculos_matematicos) ó que la primera letra de las segunda palabra sea mayúscula (p.ej. calculosMatematicos).
 
-## Al llamar la función que que poner en primer lugar el nombre del paquete.
+## Al llamar la función hay que poner en primer lugar el nombre del paquete.
 
 Si el paquete a llamar se llama "calculos_matematicos" y se utiliza una funcion pública (p.ej. Media), la llamada a la función debe ser del siguiente modo:
 
