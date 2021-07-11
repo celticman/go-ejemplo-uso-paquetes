@@ -64,5 +64,11 @@ No se puede incluir un guión medio como nombre del paquete, p.ej. no es válido
 
 Si el paquete a llamar se llama "calculos_matematicos" y se utiliza una funcion pública (p.ej. Media), la llamada a la función debe ser del siguiente modo:
 
-	calculos.matematicos.Media( numeros )
+	calculos_matematicos.Media( numeros )
 	
+Si se llama solo a la función el resultado es el siguiente:
+
+	./uso-paquetes.go:4:8: imported and not used: "aprendiendo-go/ejercicios/trabajar-con-paquetes/calculos_matematicos"
+	./uso-paquetes.go:8:12: undefined: Media
+
+El primer fallo se debe a que en el segundo fallo no encuentra la función Media y por tanto no se está utilizando ninguna función del paquete "calculos_matematicos".
